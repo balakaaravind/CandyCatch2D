@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab6b2347e9e1394fb83ecdf56fef11e, type: 3}
+  m_Name: ConsumableData
+  m_EditorClassIdentifier: 
+  consumableItemList:
+    consumableItems:
+    - itemId: 1
+      coins: 100
+      itemCost: 10
+    - itemId: 2
+      coins: 200
+      itemCost: 15
+    - itemId: 3
+      coins: 300
+      itemCost: 20
+    - itemId: 4
+      coins: 400
+      itemCost: 25
+    - itemId: 5
+      coins: 500
+      itemCost: 30
+    - itemId: 6
+      coins: 600
+      itemCost: 35
+    - itemId: 7
+      coins: 700
+      itemCost: 40
+    - itemId: 8
+      coins: 800
+      itemCost: 45
+    - itemId: 9
+      coins: 900
+      itemCost: 50
+    - itemId: 10
+      coins: 1000
+      itemCost: 60

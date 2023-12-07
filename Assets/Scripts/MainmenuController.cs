@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainmenuController : MonoBehaviour
 {
-   
+    public GameObject shopPanel;
+    public GameObject playPanel;
+    public GameObject userProfPanel;
+
+
     public void Play()
     {
         SceneManager.LoadScene("Game");
@@ -15,5 +19,18 @@ public class MainmenuController : MonoBehaviour
     {
         Application.Quit();
     }
-    
+
+    public void ShopPanel()
+    {
+        shopPanel.SetActive(true);
+        playPanel.SetActive(false);
+    }
+
+    public void UserProfPanel()
+    {
+        userProfPanel.SetActive(true);
+        playPanel.SetActive(false);
+    }
+
+
 }
